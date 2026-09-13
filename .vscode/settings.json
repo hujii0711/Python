@@ -1,0 +1,11 @@
+{
+  // 모든 파이썬 파일의 기본 포맷터를 Ruff로 지정
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  }
+}
