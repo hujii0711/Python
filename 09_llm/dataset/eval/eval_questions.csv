@@ -1,0 +1,13 @@
+question,gold_doc,gold_section,category
+리스트 원본은 그대로 두고 순서만 거꾸로 하고 싶어요,python_list,리스트 뒤집기,python
+정렬 기준을 두 개 쓰려면 어떻게 하나요,python_list,리스트 정렬,python
+b = a 로 넘겼는데 원본까지 같이 바뀝니다,python_list,리스트 복사,python
+빈 값이 전체의 몇 퍼센트인지 보고 싶습니다,pandas_missing,결측치 확인,pandas
+비어 있는 행을 지웠더니 데이터가 너무 많이 줄었어요,pandas_missing,결측 행 버리기,pandas
+그룹별 평균을 원래 행 옆에 그대로 붙이고 싶어요,pandas_groupby,transform 과 filter,pandas
+for 문으로 한 줄씩 도는데 너무 느립니다,pandas_groupby,성능 팁,pandas
+컬렉션 만들 때 숫자를 몇으로 넣어야 하는지 모르겠어요,qdrant_guide,,qdrant
+프로그램 두 개에서 동시에 붙으려면 어떻게 해야 하나요,qdrant_guide,,qdrant
+결과 상단에 비슷한 내용만 계속 나옵니다,search_tuning,MMR 로 중복 줄이기,search
+정답이 몇 번째에 나왔는지까지 점수에 반영하고 싶어요,eval_guide,검색 단계 평가,evaluation
+한국어로 물어봐도 영어 문서가 찾아지게 하려면,embedding_note,어떤 모델을 쓸까,embedding

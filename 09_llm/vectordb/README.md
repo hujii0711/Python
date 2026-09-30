@@ -11,6 +11,9 @@
 | `setup_server.ps1` | Qdrant 서버 설치 (네이티브 Windows 바이너리) |
 | `start_server.ps1` | `localhost:6333` 서버 실행 |
 | `docker-compose.yml` | 서버 모드 대안 (Docker 필요) |
+| `README_macos.md` | **macOS 에서 서버 실행하는 방법** |
+
+이 문서는 Windows 기준입니다. 맥에서는 [README_macos.md](README_macos.md) 를 보세요.
 
 임베딩 모델은 `BAAI/bge-m3` (1024차원), 거리 함수는 코사인입니다.
 

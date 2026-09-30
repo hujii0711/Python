@@ -1,7 +1,7 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-name = "mlx-community/Qwen2.5-7B-Instruct-4bit"  # 양자화 모델은 사용 불가하고 원본 모델 사용 가능 "Qwen/Qwen2.5-1.5B-Instruct"
+name = "Qwen2.5-7B-Instruct-4bit"  # "mlx-community/Qwen2.5-7B-Instruct-4bit"  # 양자화 모델은 사용 불가하고 원본 모델 사용 가능 "Qwen/Qwen2.5-1.5B-Instruct"
 device = "mps" if torch.backends.mps.is_available() else "cpu"
 print(device)  # mps
 
