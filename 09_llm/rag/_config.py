@@ -65,7 +65,7 @@ VECTOR_SIZE = 1024  # bge-m3 dense 차원
 VECTOR_NAME = QdrantVectorStore.VECTOR_NAME
 
 # 답변 생성 모델. 더 큰 모델을 쓰려면 RAG_LLM 환경변수로 바꾼다.
-LLM_MODEL = os.getenv("RAG_LLM", "Qwen/Qwen2.5-0.5B-Instruct")
+LLM_MODEL = os.getenv("RAG_LLM", "mlx-community/Qwen2.5-7B-Instruct-4bit")
 
 # 청킹 기본값. 한국어 문단 기준으로 이 정도가 무난하다.
 CHUNK_SIZE = 500
